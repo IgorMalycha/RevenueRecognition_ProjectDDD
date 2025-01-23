@@ -1,0 +1,6 @@
+@RevenueRecognition_ProjectDDD_HostAddress = http://localhost:5108
+
+GET {{RevenueRecognition_ProjectDDD_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

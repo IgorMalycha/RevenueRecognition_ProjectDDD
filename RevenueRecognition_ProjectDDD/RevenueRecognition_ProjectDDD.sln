@@ -1,0 +1,58 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RevenueRecognition.Api", "RevenueRecognition.Api\RevenueRecognition.Api.csproj", "{907AAC7B-9EF4-4F0D-87C8-7E893D10E958}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{F48F4D75-7E4A-4CEF-8073-7BDDF7BEFA3F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{25B3F04D-ACB9-447D-976E-E8511F6B60CC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RevenueRecognition.Application", "RevenueRecognition.Application\RevenueRecognition.Application.csproj", "{175816BB-2C10-41BA-BAA3-1C1F8D8EF387}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RevenueRecognition.Infrasructure", "RevenueRecognition.Infrasructure\RevenueRecognition.Infrasructure.csproj", "{0E8263DD-17DA-4443-ABDE-12E5FCB8A6AD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RevenueRecognition.Domain", "RevenueRecognition.Domain\RevenueRecognition.Domain.csproj", "{3D6C6097-E507-4DCB-8661-0B64F6CC9296}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RevenueRecognition.Shared", "RevenueRecognition.Shared\RevenueRecognition.Shared.csproj", "{9A8330CE-5915-4135-ABAF-A7629AF64E79}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RevenueRecognition.Shared.Abstractions", "RevenueRecognition.Shared.Abstractions\RevenueRecognition.Shared.Abstractions.csproj", "{D5CAD19C-3A25-4934-88A5-3F71A83F9BEB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{907AAC7B-9EF4-4F0D-87C8-7E893D10E958}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{907AAC7B-9EF4-4F0D-87C8-7E893D10E958}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{907AAC7B-9EF4-4F0D-87C8-7E893D10E958}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{907AAC7B-9EF4-4F0D-87C8-7E893D10E958}.Release|Any CPU.Build.0 = Release|Any CPU
+		{175816BB-2C10-41BA-BAA3-1C1F8D8EF387}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{175816BB-2C10-41BA-BAA3-1C1F8D8EF387}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{175816BB-2C10-41BA-BAA3-1C1F8D8EF387}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{175816BB-2C10-41BA-BAA3-1C1F8D8EF387}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0E8263DD-17DA-4443-ABDE-12E5FCB8A6AD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0E8263DD-17DA-4443-ABDE-12E5FCB8A6AD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0E8263DD-17DA-4443-ABDE-12E5FCB8A6AD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0E8263DD-17DA-4443-ABDE-12E5FCB8A6AD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3D6C6097-E507-4DCB-8661-0B64F6CC9296}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3D6C6097-E507-4DCB-8661-0B64F6CC9296}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3D6C6097-E507-4DCB-8661-0B64F6CC9296}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3D6C6097-E507-4DCB-8661-0B64F6CC9296}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9A8330CE-5915-4135-ABAF-A7629AF64E79}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9A8330CE-5915-4135-ABAF-A7629AF64E79}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9A8330CE-5915-4135-ABAF-A7629AF64E79}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9A8330CE-5915-4135-ABAF-A7629AF64E79}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D5CAD19C-3A25-4934-88A5-3F71A83F9BEB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D5CAD19C-3A25-4934-88A5-3F71A83F9BEB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D5CAD19C-3A25-4934-88A5-3F71A83F9BEB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D5CAD19C-3A25-4934-88A5-3F71A83F9BEB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{907AAC7B-9EF4-4F0D-87C8-7E893D10E958} = {F48F4D75-7E4A-4CEF-8073-7BDDF7BEFA3F}
+		{0E8263DD-17DA-4443-ABDE-12E5FCB8A6AD} = {F48F4D75-7E4A-4CEF-8073-7BDDF7BEFA3F}
+		{175816BB-2C10-41BA-BAA3-1C1F8D8EF387} = {F48F4D75-7E4A-4CEF-8073-7BDDF7BEFA3F}
+		{3D6C6097-E507-4DCB-8661-0B64F6CC9296} = {F48F4D75-7E4A-4CEF-8073-7BDDF7BEFA3F}
+		{9A8330CE-5915-4135-ABAF-A7629AF64E79} = {F48F4D75-7E4A-4CEF-8073-7BDDF7BEFA3F}
+		{D5CAD19C-3A25-4934-88A5-3F71A83F9BEB} = {F48F4D75-7E4A-4CEF-8073-7BDDF7BEFA3F}
+	EndGlobalSection
+EndGlobal

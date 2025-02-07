@@ -1,0 +1,32 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net8.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <Folder Include="Aggregates\AgreementAggregate\Entities\" />
+      <Folder Include="Aggregates\AgreementAggregate\Events\" />
+      <Folder Include="Aggregates\AgreementAggregate\Repositories\" />
+      <Folder Include="Aggregates\ClientAggregate\Events\" />
+      <Folder Include="Aggregates\ClientAggregate\Repositories\" />
+      <Folder Include="Aggregates\DiscountAggregate\Events\" />
+      <Folder Include="Aggregates\DiscountAggregate\Repositories\" />
+      <Folder Include="Aggregates\PaymentAggregate\Entities\" />
+      <Folder Include="Aggregates\PaymentAggregate\Events\" />
+      <Folder Include="Aggregates\PaymentAggregate\Repositories\" />
+      <Folder Include="Aggregates\SoftwareAggregate\Entities\" />
+      <Folder Include="Aggregates\SoftwareAggregate\Events\" />
+      <Folder Include="Aggregates\SoftwareAggregate\Repositories\" />
+      <Folder Include="Consts\" />
+      <Folder Include="Factories\" />
+      <Folder Include="Policies\" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\RevenueRecognition.Shared.Abstractions\RevenueRecognition.Shared.Abstractions.csproj" />
+    </ItemGroup>
+
+</Project>

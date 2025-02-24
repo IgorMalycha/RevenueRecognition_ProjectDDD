@@ -12,7 +12,8 @@
     </ItemGroup>
 
     <ItemGroup>
-      <Folder Include="Controllers\" />
+      <ProjectReference Include="..\RevenueRecognition.Application\RevenueRecognition.Application.csproj" />
+      <ProjectReference Include="..\RevenueRecognition.Shared\RevenueRecognition.Shared.csproj" />
     </ItemGroup>
 
 </Project>

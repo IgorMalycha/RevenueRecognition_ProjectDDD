@@ -7,7 +7,21 @@
     </PropertyGroup>
 
     <ItemGroup>
-      <Folder Include="Exceptions\" />
+      <Folder Include="Commands\DiscountCommands\Handlers\" />
+      <Folder Include="Commands\RevenueCommands\Handlers\" />
+      <Folder Include="Commands\SoftwareCommands\Handlers\" />
+      <Folder Include="DTOs\External\" />
+      <Folder Include="Exceptions\DiscountExceptions\" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\RevenueRecognition.Domain\RevenueRecognition.Domain.csproj" />
+      <ProjectReference Include="..\RevenueRecognition.Shared.Abstractions\RevenueRecognition.Shared.Abstractions.csproj" />
+      <ProjectReference Include="..\RevenueRecognition.Shared\RevenueRecognition.Shared.csproj" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="9.0.2" />
     </ItemGroup>
 
 </Project>

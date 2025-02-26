@@ -1,6 +1,6 @@
 # RevenueRecognition_ProjectDDD
 
-This project implements a Revenue Recognition System using C# and ASP.NET in a REST API architecture, following the Domain driven design approach and CQRS pattern. The system addresses problem of recognizing revenue for product (software) purchases and services (software subscriptions), ensuring that revenue is recorded correctly according to applicable regulations and business standards.
+This project implements a Revenue Recognition System using C# and ASP.NET in a REST API architecture, following the Domain Driven Design approach and CQRS pattern. The system addresses problem of recognizing revenue for product (software) purchases and services (software subscriptions), ensuring that revenue is recorded correctly according to applicable regulations and business standards.
 
 Key functionalities include:
 
@@ -12,4 +12,4 @@ Contract Handling: Allows creating contracts with customizable payment periods a
 
 Revenue Calculation: Provides endpoints for calculating both actual and expected revenue. This includes support for currency conversion using public exchange rate APIs to accommodate different currencies.
 
-The project adheres to best practices such as clean code, SOLID principles, layerd archotecture and incorporates unit tests for business logic validation. It includes secure user authentication, ensuring only authorized employees can manage data, with role-based access for administrators and standard users. Communication with the database is accomplished via an ORM, specifically Entity Framework.
+The project adheres to best practices such as clean code, SOLID principles, layerd architecture and incorporates unit tests for business logic validation. It includes secure user authentication, ensuring only authorized employees can manage data, with role-based access for administrators and standard users. Communication with the database is accomplished via an ORM, specifically Entity Framework.
